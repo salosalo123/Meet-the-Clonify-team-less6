@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+body{
+    width: 100%;
+    height: 1721px;
+    padding: 80px 52px;
+    gap: 48px;
+}
+
+.title{
+  width: 100%;
+  height: 178px;
+  gap: 16px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inter-font-600{
+  font-family: 'Inter', sans-serif;
+  color:#282828;
+  font-weight: 600;
+  
+}
+.team{
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  }
+H1{
+  font-size: 54PX;
+  line-height: 62PX;
+  text-align: center;
+  margin-top: 4px;
+}
+.div-title-paragrap{
+  width: 760px;
+  height: 70px;
+  margin-top: 16px;
+}
+.title-patagrap{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #5F6980;
+}
+
+/* main section */
+.main-conteiner{
+  width: 1336px;
+  height: 908px;
+  margin: 0 auto;
+  margin-top:48px;
+  /* gap: 48px; */
+  
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.child-div{
+  width: 310px;
+  height: 430px;
+  gap: 16px;
+  background-color:#EAECF0;
+  
+}
+.picture{
+  width: 310px;
+  height: 230px;
+
+}
+.info{
+  width: 278px;
+  height: 108px;
+  gap: 8px;
+  margin-left: 16px;
+}
+h2{
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 16px;
+}
+.font-400-14{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.profeshan{
+  color:#3E3E59 ;
+  margin-top: 4px;
+}
+.lorem{
+  color: #5F6980;
+  margin-top: 8px;
+}
+.social{
+  width: 278px;
+  height: 36px;
+  gap: 24px;
+  display: flex;
+  justify-content: left;
+  align-items:flex-start;
+  flex-direction: row;
+  margin-top:24px;
+  margin-left: 16px;
+  
+}
+.social-div{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #F2F4F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.djv{
+  color: red
+
+
+  
+}
