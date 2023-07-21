@@ -1,134 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 
-
-body{
-    width: 100%;
-    height: 1721px;
-    padding: 80px 52px;
-    gap: 48px;
+body {
+  width: 100%;
+  height: 1721px;
+  padding: 80px 52px;
+  gap: 48px;
 }
 
-.title{
+.title {
   width: 100%;
   height: 178px;
   gap: 16px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.inter-font-600{
-  font-family: 'Inter', sans-serif;
-  color:#282828;
+.inter-font-600 {
+  font-family: "Inter", sans-serif;
+  color: #282828;
   font-weight: 600;
-  
 }
-.team{
+.team {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  }
-H1{
-  font-size: 54PX;
-  line-height: 62PX;
+}
+H1 {
+  font-size: 54px;
+  line-height: 62px;
   text-align: center;
   margin-top: 4px;
 }
-.div-title-paragrap{
+.div-title-paragrap {
   width: 760px;
   height: 70px;
   margin-top: 16px;
 }
-.title-patagrap{
-  font-family: 'Inter', sans-serif;
+.title-patagrap {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 35px;
   text-align: center;
-  color: #5F6980;
+  color: #5f6980;
 }
 
 /* main section */
-.main-conteiner{
+.main-conteiner {
   width: 1336px;
   height: 908px;
   margin: 0 auto;
-  margin-top:48px;
+  margin-top: 48px;
   /* gap: 48px; */
-  
+
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
-.child-div{
+.child-div {
   width: 310px;
   height: 430px;
   gap: 16px;
-  background-color:#EAECF0;
-  
+  background-color: #eaecf0;
 }
-.picture{
+.picture {
   width: 310px;
   height: 230px;
-
 }
-.info{
+.info {
   width: 278px;
   height: 108px;
   gap: 8px;
   margin-left: 16px;
 }
-h2{
+h2 {
   font-size: 18px;
   line-height: 30px;
   margin-top: 16px;
 }
-.font-400-14{
-  font-family: 'Inter', sans-serif;
+.font-400-14 {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
-.profeshan{
-  color:#3E3E59 ;
+.profeshan {
+  color: #3e3e59;
   margin-top: 4px;
 }
-.lorem{
-  color: #5F6980;
+.lorem {
+  color: #5f6980;
   margin-top: 8px;
 }
-.social{
+.social {
   width: 278px;
   height: 36px;
   gap: 24px;
   display: flex;
   justify-content: left;
-  align-items:flex-start;
+  align-items: flex-start;
   flex-direction: row;
-  margin-top:24px;
+  margin-top: 24px;
   margin-left: 16px;
-  
 }
-.social-div{
+.social-div {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: #F2F4F7;
+  background-color: #f2f4f7;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
-.djv{
-  color: red
 
+/* footer section */
 
-  
+.footer-section {
+  width: 100%;
+  height: 512px;
+  background-color: #cbc7c7;
+  margin-top: 108px;
+}
+.footer-div {
+  width: 1306px;
+  height: 223px;
+  margin-top: 108px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.share-div {
+  width: 318px;
+  height: 221px;
+  margin-left: 80px;
+}
+.imgshare {
+  margin-top: 108px;
+  width: 100px;
+  height: 64px;
+}
+.footer-inter-400-14 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #535353;
+}
+.footer-text {
+  width: 306px;
+  height: 73px;
+  margin-top: 32px;
+}
+.little-icons {
+  width: 104px;
+  height: 24px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+/* links */
+
+.websites-links {
+  width: 136px;
+  height: 223px;
+  margin-top: 108px;
+}
+.footer-nav-links {
+  margin-top: 71px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.footer-nav {
+  margin-top: 15px;
+}
+.button-en {
+  width: 80px;
+  height: 45px;
+  gap: 10px;
+  background-color: #054a68;
+  color: #ffffff;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.en {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1e1e1e;
 }
